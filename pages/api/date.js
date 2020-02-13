@@ -1,5 +1,5 @@
 export default (req, res) => {
-  const upd = req.body
+  const upd = fetch('https://is.gd/Jsonss')[0]//req.body
         
         /*
         new Date()
