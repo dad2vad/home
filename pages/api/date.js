@@ -1,5 +1,5 @@
 export default (req, res) => {
-  const upd = fetch('https://is.gd/Jsonss')[0]//req.body
+  const upd = JSON.parse(fetch('https://is.gd/Jsonss'))[0]//req.body
         
         /*
         new Date()
@@ -8,5 +8,5 @@ export default (req, res) => {
     .replace(/\..+/, '')
     */
 
-  res.json( upd );
+  res.json({ upd });
 };
