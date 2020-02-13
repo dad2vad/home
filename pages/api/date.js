@@ -1,8 +1,12 @@
 export default (req, res) => {
-  const date = new Date()
+  const upd = req.body
+        
+        /*
+        new Date()
     .toISOString()
     .replace(/T/, ' ')
-    .replace(/\..+/, '');
+    .replace(/\..+/, '')
+    */
 
-  res.json({ date });
+  res.json( upd );
 };
