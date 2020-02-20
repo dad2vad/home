@@ -4,7 +4,7 @@ import Head from '../components/head';
 import Nav from '../components/nav';
 
 const Home = () => {
-  
+ 
   const [date, setDate] = useState(null);
 
   useEffect(() => {
